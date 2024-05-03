@@ -145,7 +145,7 @@ $result = $conn->query($sql);
 
 <div class="container">
     <h2>PHP Maulidio Farhan Rizkullah</h2>
-    <h4 style="font-style: italic;">Maulidio Farhan Rizkullah</h4>
+    <h4 style="font-style: italic;">Maulidio Farhan Rizkullah 2141720041</h4>
     <?php if(isset($message)): ?>
         <div class="notification"><?php echo $message; ?></div>
     <?php endif; ?>
