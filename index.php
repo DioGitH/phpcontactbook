@@ -7,12 +7,12 @@ error_reporting(E_ALL);
 // Database connection
 $servername = "localhost";
 $username = "contact-book";
-$password = "C0nt4ct-B00k";
+$password = "";
 $dbname = "contacts_db";
 
 // Local dev
-//$username = "root";
-//$password = "root";
+// $username = "root";
+// $password = "root";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -76,7 +76,7 @@ $result = $conn->query($sql);
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: darkseagreen;
+            background-color: red;
         }
         .container {
             max-width: 80%;
@@ -109,7 +109,7 @@ $result = $conn->query($sql);
             border: 1px solid #ccc;
         }
         input[type="submit"] {
-            background-color: #4CAF50;
+            background-color: #444444;
             color: white;
             padding: 10px 20px;
             border: none;
@@ -144,8 +144,8 @@ $result = $conn->query($sql);
 <body>
 
 <div class="container">
-    <h2>PHP ContactBook</h2>
-    <h4 style="font-style: italic;">Simple contact management app written in PHP</h4>
+    <h2>PHP Maulidio Farhan Rizkullah</h2>
+    <h4 style="font-style: italic;">Maulidio Farhan Rizkullah</h4>
     <?php if(isset($message)): ?>
         <div class="notification"><?php echo $message; ?></div>
     <?php endif; ?>
